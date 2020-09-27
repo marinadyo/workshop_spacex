@@ -3,6 +3,7 @@ let MiniCssExtractPlugin = require('mini-css-extract-plugin');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 let CopyWebpackPlugin = require('copy-webpack-plugin');
 
+
 let conf = {
   entry: './src/js/app.js',
   output: {
@@ -41,6 +42,7 @@ let conf = {
     new MiniCssExtractPlugin({
       filename: 'app.css'
     }),
+    
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template : './src/pug/index.pug'

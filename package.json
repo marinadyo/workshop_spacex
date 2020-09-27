@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "dom-delegate": "^2.2.1"
+    "dom-delegate": "^2.2.1",
+    "rellax": "^1.12.1"
   }
 }
